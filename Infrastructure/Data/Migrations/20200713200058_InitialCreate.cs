@@ -1,5 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
-using Infrastructure.Data;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Infrastructure.Data.Migrations
 {
@@ -13,9 +13,12 @@ namespace Infrastructure.Data.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    BugTitle = table.Column<string>(nullable: true),
-                    BugDescription = table.Column<string>(nullable: true),
-                    BugCreatedDate = table.Column<string>(nullable: true)
+                    BugTitle = table.Column<string>(maxLength: 100, nullable: false),
+                    BugDescription = table.Column<string>(nullable: false),
+                    ToolName = table.Column<string>(nullable: false),
+                    Version = table.Column<string>(nullable: true),
+                    BugCreatedDate = table.Column<DateTime>(nullable: false),
+                    Status = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {

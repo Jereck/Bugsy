@@ -1,6 +1,21 @@
 # Bugsy
 A Bug Manager built with C#
 
+### Stage 1: Backend
+- [x] Wire-up simple API
+- [x] Start forming API Architecture
+- [x] Seed Database with dummy data
+- [] Setup Generic Repository
+- [] Implement API Error Handling
+- [] Implement addition API features (i.e. - Pagination, Filtering and Sorting)
+
+### Stage 2: Frontend
+- [] Figure out which frontend framwork works best to get the job done
+
+### Stage 3: Desktop UI
+- [] Figure out which Desktop framework I want to go with (WPF, Universal, Electron, etc.)
+
+
 ---
 
 ## Backend

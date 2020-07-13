@@ -1,0 +1,23 @@
+[
+    {
+        "BugTitle": "Bug One",
+        "BugDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a molestie lacus. Curabitur gravida vel nibh et porttitor. Donec quis sagittis ligula. Aliquam non nisi ultricies, sodales tellus et, eleifend risus. Ut dapibus ex in rhoncus eleifend. Quisque tempus, arcu a dictum tempor, leo libero rutrum nisi, non dictum tortor nunc sit amet risus.",
+        "ToolName": "Sample Tool",
+        "Version": "1.0.1.0",
+        "BugCreatedDate": "2017-09-08T19:01:55.714942+03:00"
+    },
+    {
+        "BugTitle": "Bug Two",
+        "BugDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a molestie lacus. Curabitur gravida vel nibh et porttitor. Donec quis sagittis ligula. Aliquam non nisi ultricies, sodales tellus et, eleifend risus. Ut dapibus ex in rhoncus eleifend. Quisque tempus, arcu a dictum tempor, leo libero rutrum nisi, non dictum tortor nunc sit amet risus.",
+        "ToolName": "Sample Tool",
+        "Version": "1.0.1.0",
+        "BugCreatedDate": "2017-09-08T19:01:55.714942+03:00"
+    },
+    {
+        "BugTitle": "Bug Three",
+        "BugDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a molestie lacus. Curabitur gravida vel nibh et porttitor. Donec quis sagittis ligula. Aliquam non nisi ultricies, sodales tellus et, eleifend risus. Ut dapibus ex in rhoncus eleifend. Quisque tempus, arcu a dictum tempor, leo libero rutrum nisi, non dictum tortor nunc sit amet risus.",
+        "ToolName": "Sample Tool",
+        "Version": "1.0.1.0",
+        "BugCreatedDate": "2017-09-08T19:01:55.714942+03:00"
+    }
+]
