@@ -1,6 +1,8 @@
 # Bugsy
 A Bug Manager built with C#
+
 ---
+
 ## Backend
 ASP.NET Core Web API will function as the backend
 
