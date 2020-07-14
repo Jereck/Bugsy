@@ -1,5 +1,9 @@
 # Bugsy
-A Bug Manager built with C#
+The idea of this app is to start fairly simple. Users will be able to create an account, and log bugs. 
+This idea stems from a simple bug manager I made for my team, except it will not use Active Directory to automatically grab users on our team. This will be more general purpose. This application will be more complicanted in a sense, with a full API, Database, and a frontend for both the web and desktop. (Desktop version will probably be for management of bugs.)
+
+Bug models will start out pretty simple with a Title, Description, Tool Name, Creation Date, Status, and Version Number with relations to the User.
+Future Build: There will be iterations and a Kanban style board for bug management.
 
 ### Stage 1: Backend
 - [x] Wire-up simple API
